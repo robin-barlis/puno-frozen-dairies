@@ -1,0 +1,31 @@
+<div class="row mt-5">
+    <div class="col-md-6 m-auto">
+        <div class="login-card login-card-body">
+            <div class="login-form-group">
+                <form action="/users/mainContent" method="POST">
+                    <div class="warning-message">
+
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="accountID">Account ID</label>
+                        <input type="text" id="accountID" name="accountID" class="form-control login-input" />
+                    </div>
+                    <div class="form-group">
+                        <label for="password" >Password</label>
+                        <input type="password" id="password" name="password" class="form-control login-input" />
+                    </div>
+                    <div class="div-horizontal-center mt-2pt5-per">
+                        <button type="submit" class="btn btn-primary vertical-center">Login</button>
+                    </div>
+                    
+                </form>
+                <div class="div-horizontal-center mt-25-per">
+                    <p class="form-group">
+                        <a href="/users/changePassword">Forgot Password?</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
